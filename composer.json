@@ -1,0 +1,35 @@
+{
+    "name": "kslimani/passport-grant",
+    "description": "Laravel Password grant types provider",
+    "keywords": ["grant", "laravel", "passport"],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.0",
+        "laravel/passport": ">=4.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^3.5",
+        "phpunit/phpunit": "^7.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sk\\Passport\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sk\\Passport\\GrantTypesServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "prefer-stable": true
+}
