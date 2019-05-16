@@ -33,10 +33,10 @@ class GrantTypesServiceProvider extends ServiceProvider
     {
         $grants = $this->app->config->get('passportgrant.grants', []);
 
-        foreach ($grants as $grantType => $userResolverClass) {
+        foreach ($grants as $grantType => $userProviderClass) {
             $grant = new Grant(
                 $grantType,
-                $this->app->make($userResolverClass),
+                $this->app->make($userProviderClass),
                 $this->app->make(RefreshTokenRepository::class)
             );
             $grant->setRefreshTokenTTL(Passport::refreshTokensExpireIn());
