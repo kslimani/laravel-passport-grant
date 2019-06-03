@@ -1,6 +1,6 @@
 {
     "name": "kslimani/laravel-passport-grant",
-    "description": "Laravel Password grant types provider",
+    "description": "Laravel Passport custom grant types provider",
     "keywords": ["grant", "laravel", "passport"],
     "license": "MIT",
     "require": {
