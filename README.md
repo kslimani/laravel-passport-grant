@@ -1,6 +1,8 @@
+![](https://github.com/kslimani/laravel-passport-grant/workflows/Integration%20tests/badge.svg)
+
 # laravel-passport-grant
 
-This library provide a very simple way to add custom grant types for [Laravel Passport](https://github.com/laravel/passport) OAuth2 server.
+This library provide a very simple way to add __custom grant types__ for [Laravel Passport](https://github.com/laravel/passport) OAuth2 server.
 
 ## Installation
 
