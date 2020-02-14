@@ -38,7 +38,6 @@ class TestCase extends OrchestraTestCase
         // Create Passport keys once
         if (file_exists(storage_path('oauth-private.key'))
             && file_exists(storage_path('oauth-public.key'))) {
-
             return;
         }
 
