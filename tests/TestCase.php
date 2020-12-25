@@ -58,5 +58,6 @@ class TestCase extends OrchestraTestCase
             'database' => ':memory:',
             'prefix'   => '',
         ]);
+        $app->config->set('passport.storage.database.connection', 'testbench');
     }
 }
