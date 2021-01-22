@@ -64,6 +64,8 @@ If request validation fails, the `validate()` method must throw a `League\OAuth2
 
 On success, the `retrieve()` method must return a `League\OAuth2\Server\Entities\UserEntityInterface` or `Illuminate\Contracts\Auth\Authenticatable` instance. Otherwise `null` on failure.
 
+## User provider example
+
 For convenience, the [UserProvider](https://github.com/kslimani/laravel-passport-grant/blob/master/src/UserProvider.php) class provide methods to validate and retrieve request custom parameters.
 
 Therefore, creating a user provider becomes simple :
@@ -114,7 +116,9 @@ class AcmeUserProvider extends UserProvider
 }
 ```
 
-Token request example for the "acme" grant type :
+## Token request example
+
+Request an access token for "acme" grant type :
 
 ```php
 // Assuming $http is \GuzzleHttp\Client instance
