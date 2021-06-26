@@ -1,4 +1,4 @@
-![](https://github.com/kslimani/laravel-passport-grant/workflows/Integration%20tests/badge.svg)
+![](https://github.com/kslimani/laravel-passport-grant/workflows/Integration%20tests/badge.svg) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # laravel-passport-grant
 
@@ -134,3 +134,7 @@ $response = $http->post('https://your-app.com/oauth/token', [
     ],
 ]);
 ```
+
+## License
+
+The MIT License (MIT). Please see [License File](https://github.com/kslimani/laravel-passport-grant/blob/master/LICENSE) for more information.
