@@ -11,6 +11,6 @@ jobs:
         with:
           php-version: '7.4'
       - run: composer install
-      - run: vendor/bin/php-cs-fixer fix --diff --diff-format=udiff --using-cache=no --dry-run src
-      - run: vendor/bin/php-cs-fixer fix --diff --diff-format=udiff --using-cache=no --dry-run tests
+      - run: vendor/bin/php-cs-fixer fix --diff --using-cache=no --dry-run src
+      - run: vendor/bin/php-cs-fixer fix --diff --using-cache=no --dry-run tests
       - run: vendor/bin/phpunit
