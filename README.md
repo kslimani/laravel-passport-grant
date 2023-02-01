@@ -1,4 +1,4 @@
-![](https://github.com/kslimani/laravel-passport-grant/workflows/Integration%20tests/badge.svg) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![](https://github.com/kslimani/laravel-passport-grant/workflows/Integration%20tests/badge.svg) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 # laravel-passport-grant
 
